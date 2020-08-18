@@ -20,16 +20,14 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'restforce', '~> 2.5', '>= 2.5.3'
-  spec.add_dependency 'multi_json', '~> 1.12', '>= 1.12.1'
-  spec.add_dependency 'fire_poll', '~> 1.2', '>= 1.2.0'
+  spec.add_dependency 'restforce', '~> 5'
+  spec.add_dependency 'multi_json', '~> 1'
+  spec.add_dependency 'fire_poll', '~> 1'
 
-  spec.add_development_dependency 'bundler', '~> 1.14'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec', '~> 3.5'
-  spec.add_development_dependency 'simplecov', '~> 0.14.1'
-  spec.add_development_dependency 'dotenv', '~> 2.2', '>= 2.2.1'
-  spec.add_development_dependency 'vcr', '~> 3.0', '>= 3.0.3'
-  spec.add_development_dependency 'webmock', '~> 3.0', '>= 3.0.1'
-  spec.add_development_dependency 'addressable', '~> 2.5', '>= 2.5.1'
+  spec.add_development_dependency 'rspec', '~> 3'
+  spec.add_development_dependency 'simplecov', '~> 0'
+  spec.add_development_dependency 'dotenv', '~> 2'
+  spec.add_development_dependency 'vcr', '~> 6'
+  spec.add_development_dependency 'webmock', '~> 3'
+  spec.add_development_dependency 'addressable', '~> 2'
 end
